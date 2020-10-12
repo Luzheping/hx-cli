@@ -1,0 +1,25 @@
+{
+  "name": "hxxc1-cli",
+  "version": "1.0.0",
+  "description": "hxxc-cli module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  },
+  "bin": {
+    "hx": "./bin/hx",
+    "hx-add": "bin/hx-add",
+    "hx-delete": "bin/hx-delete",
+    "hx-list": "bin/hx-list",
+    "hx-init": "bin/hx-init"
+  }
+}
